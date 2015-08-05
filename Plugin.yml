@@ -1,0 +1,17 @@
+name: AreaEffects
+main: AreaEffects\Main
+version: 0.7.1
+api: [1.12.0]
+
+load: STARTUP
+author: Rspuds
+description: Applys effects useing areas
+commands:
+        ae:
+            description: All area effects commands
+            usage: "/ae <command>"
+            permisstion: ae.commands.ae
+permissions:
+        ae.command.ae:
+                default: true
+                description: "runs all commands"
